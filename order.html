@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple order</title>
+    <!-- taiwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts hind siliguri -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+        <!-- css style link -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <section class="px-1 sm:px-28 md:px-0 lg:px-0">
+        <div class="max-w-[1140px] mx-auto border-[8px] lg:border-b-[6.4px] lg:border-t-[34.4px] border-[#0092FF] p-[15px] rounded-b-[20px] rounded-t-[53px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-6 c-gap lg:gap-32 ">
+                <div>
+                    <h2 class="text-[#333333] font-medium text-[22px] lg:text-[25px] mb-[25px]">বিলিং তথ্য</h2>
+                    <div>
+                        <div class="lg:w-[564px] px-[7px] py-[3px] bg-white rounded-md mb-[22px]">
+                            <label for="name" class="block text-sm md:text-[20px] font-medium text-[#404040]">আপনার নাম
+                                লিখুন *</label>
+                            <input type="text" id="name" name="user_name" required
+                                class="mt-2 w-full lg:h-[52.16px] py-[11px] px-[12px] border rounded-md focus:outline-none focus:ring-[1px] focus:border-blue-300 required">
+                        </div>
+                        <div class="lg:w-[564px] px-[7px] py-[3px] bg-white rounded-md mb-[22px]">
+                            <label for="name" class="block text-sm md:text-[20px] font-medium text-[#404040]">আপনার
+                                ঠিকানা
+                                লিখুন *</label>
+                            <input type="text" id="name" name="user_name" required
+                                class="mt-2 w-full lg:h-[52.16px] py-[11px] px-[12px] border rounded-md focus:outline-none focus:ring-[1px] focus:border-blue-300 required">
+                        </div>
+                        <div class="lg:w-[564px] px-[7px] py-[3px] bg-white rounded-md mb-[22px]">
+                            <label for="name" class="block text-sm md:text-[20px] font-medium text-[#404040]">আপনার
+                                মোবাইল
+                                নাম্বার *</label>
+                            <input type="text" id="name" name="user_name" required
+                                class="mt-2 w-full lg:h-[52.16px] py-[11px] px-[12px] border rounded-md focus:outline-none focus:ring-[1px] focus:border-blue-300 required">
+                        </div>
+                        <div class="lg:w-[564px] px-[7px] py-[3px] bg-white rounded-md mb-[22px]">
+                            <label for="name" class="block text-sm md:text-[20px] font-medium text-[#404040]">সেকেন্ডারি
+                                ফোন
+                                নাম্বার (optional)</label>
+                            <input type="text" id="name" name="user_name" required
+                                class="mt-2 w-full lg:h-[52.16px] py-[11px] px-[12px] border rounded-md focus:outline-none focus:ring-[1px] focus:border-blue-300 required">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- order infomation -->
+                <div class="lg:mt-[20px] px-[16px] py-[15px] lg:py-0 md:px-[0]">
+                    <h2
+                        class="text-[#333333] pt-[3px] px-[3px] font-medium text-[22px] lg:text-[25px] mb-5 lg:mb-[25px]">
+                        অর্ডার তথ্য</h2>
+                    <div class="p-[3px]">
+                        <div>
+                            <div class="flex justify-between border-dashed border-b-[1px] border-[#CCCCCC]">
+                                <h3 class="py-[10.6px] text-[#404040] text-[15.2px] lg:text-[17px] font-semibold leading-6">Product </h3>
+                                <h3 class="py-[10.6px] lg:mr-[80px] text-[#404040] text-[15.2px] lg:text-[17px] font-semibold leading-6">
+                                    Subtotal
+                                </h3>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-center justify-between border-dashed border-b-[1px] border-[#CCCCCC] py-[10px]">
+                            <div class="flex items-center h-[56px] lg:h-[60px] lg:ml-[10px]">
+                                <img class="w-[53px] h-[53px]" src="./images/woocommerce-placeholder.png" alt="">
+                                <h3 class="text-[15.2px] lg:text-[17.1px]">500 গ্রাম-ট্রায়াল প্যাক </h3>
+                            </div>
+                            <p class="text-[15.2px] lg:text-[17.1px] lg:mr-[90px]">× 1 680.00৳ </p>
+                        </div>
+                        <div class="flex justify-between py-[10px]">
+                            <p class="text-[15.2px] lg:text-[17.1px] text-[#404040]">Subtotal</p>
+                            <p class="text-[15.2px] lg:text-[17.1px] text-[#404040] lg:mr-[85px] ">680.00৳</p>
+                        </div>
+
+                        <div
+                            class="flex justify-between text-[#000000] leading-6 pb-[10px] items-center h-[80px] border-dashed border-b-[1px]">
+                            <div>
+                                <p class="text-[15.2px] lg:text-[17.1px]">Shipping</p>
+                            </div>
+                            <div>
+                                <p class="lg:mr-[45px] text-[15.2px] lg:text-[17.1px]">ডেলিভারি চার্জ:</p>
+                                <p class="ml-[40px] md:ml-0 text-[15.2px] lg:text-[17.1px]">70.00৳ </p>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between py-[10.26px]">
+                            <h3 class="text-[15.2px] lg:text-[17.1px] font-bold">Total</h3>
+                            <h3 class="text-[15.2px] lg:text-[17.1px] font-semibold lg:mr-[80px]">750.00৳</h3>
+                        </div>
+
+                        <!-- cash on delivery -->
+                        <div class=" relative lg:w-[462px] cash-on h-[152px] p-[15px] bg-[#F7F7F7] mt-[18px]">
+                            <h2 class="text-[15px] lg:text-[20px] font-medium text-[#404040] leading-[40px]">ক্যাশ অন ডেলিভারি</h2>
+                            <button
+                                class=" mt-[16.56px] text-[#515151] text-sm text-[16.56px] w-full  mb-[8.28px] text-left p-[16.56px] bg-[#EAEAEA] rounded-[2px]">অগ্রীম
+                                কোন পেমেন্ট ছাড়াই অর্ডার করুন</button>
+                                <div class="absolute top-[67px] left-12	 w-5 h-5">
+                                    <div class="w-full h-full bg-[#EAEAEA] transform rotate-45 origin-bottom-right"></div>
+                                </div>
+                        </div>
+                       
+                        <p class="pt-2 text-[#777777] leading-[16.5px] text-[11px] ">Your personal data will be
+                            used to process your order, support your experience throughout this website, and for other
+                            purposes
+                            described in our <a class="text-[#F48861]" href=""> privacy policy</a> .</p>
+
+                        <!-- confirm button -->
+                        <button
+                            class="flex items-center confirm-btn justify-center w-full gap-2  text-[#FFFFFF] bg-[#0092FF] lg:w-[462px] h-[58.4] py-4 px-6 rounded-[10px] mt-[15.6px] ">
+                            <i class="fa-solid fa-lock"></i>
+                            <span class="text-[16px]">কনফার্ম করুন</span><span>750.00৳</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- last part -->
+            <div
+                class="lg:max-w-[1097.200px] w-full md:mt-3 lg:mt-[30px] h-[173px] md:h-[130px] p-[10px] flex items-center justify-center bg-[#FC9DA6] rounded-b-[15px] md:rounded-none ">
+                <p
+                    class="lg:w-[678px] text-[18px] text-[#FFFFFF] text-center lg:text-[20px] font-semibold leading-[27px] lg:leading-[30px]">
+                    বিঃদ্রঃ অর্ডার করার পর যদি আপনি আপনার কোন ব্যাক্তিগত সমস্যার কারণে পার্সেল রিসিভ করতে না পারেন তাহলে
+                    <span class="text-[#FF0000]">ডেলিভারি ও রিটার্ন চার্জ 100 টাকা</span> দিতে হবে।
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
